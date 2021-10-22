@@ -32,7 +32,7 @@ class Human {
         this.profession = profession;
     }
 }
-class Venkatesh extends Human {
+class David extends Human {
     constructor(name, age, profession, city) {
         super(name, age, profession);
         this.city = city;
@@ -41,11 +41,11 @@ class Venkatesh extends Human {
         this.age = age;
     }
 }
-let venkatesh = new Human("Venkatesh", 20, "Developer");
-let venkatesh2 = new Venkatesh("Venkatesh Mogili", 20, "Full stack", 10);
+let David = new Human("David", 20, "Developer");
+let David2 = new David("David ", 20, "Full stack", 10);
 //5.Generics
 function createItems(items) {
     return new Array().concat(items);
 }
 let numberArray = createItems([1, 2, 3]);
-let stringArray = createItems(["Vivek", "venkatesh"]);
+let stringArray = createItems(["Vivek", "David"]);

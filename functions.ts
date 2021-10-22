@@ -17,7 +17,7 @@ let mobile = {
 let addition = (a, b, c) => a + b + c;
 let sub = (a, b, c) => a - b - c;
 let user2 = {
-    name: "Vivek",
+    name: "Pavan",
     age: 20
 };
 //3.Unknown vs Any
@@ -41,11 +41,11 @@ class David extends Human {
         this.age = age;
     }
 }
-let David = new Human("David", 20, "Developer");
+let David = new Human("David", 20, "DevOps");
 let David2 = new David("David ", 20, "Full stack", 10);
 //5.Generics
 function createItems(items) {
     return new Array().concat(items);
 }
 let numberArray = createItems([1, 2, 3]);
-let stringArray = createItems(["Vivek", "David"]);
+let stringArray = createItems(["Pavan", "David"]);

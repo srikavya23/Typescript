@@ -1,4 +1,5 @@
 //2.Interfaces
+export{};
 interface MobileInterface{
     title: string
     price: number

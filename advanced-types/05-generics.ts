@@ -1,4 +1,5 @@
 //5.Generics
+export{};
 
 function createItems(items:any[]):any[] {
     return new Array().concat(items);

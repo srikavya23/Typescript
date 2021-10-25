@@ -1,4 +1,5 @@
 //9.Objects
+export{};
 
 // Object is an instance which contains set of key value pairs
 // const user = {

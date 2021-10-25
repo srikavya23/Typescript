@@ -1,4 +1,5 @@
 //8.Enum
+export{};
 const RED = "Red";
 const BLUE = "Blue";
 enum Colors{

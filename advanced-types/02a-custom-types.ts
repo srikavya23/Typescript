@@ -1,4 +1,5 @@
 //Custom types
+export{};
 type MobileType = {
     name:string
     age:number

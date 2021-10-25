@@ -1,4 +1,5 @@
 //4.any
+export{};
 let a = 10;
 // a = "hello";
 // a = 20;

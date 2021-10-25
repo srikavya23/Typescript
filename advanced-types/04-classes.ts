@@ -1,4 +1,5 @@
 //4.Classes
+export{};
 
 class Human {
     // private name: string
